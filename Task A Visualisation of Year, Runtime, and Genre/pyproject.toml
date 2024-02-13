@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "InfoVisTaskA"
+version = "1.0.0"
+description = "Task A: Visualisation of Year, Runtime, and Genre"
+authors = ["Subhomoy Haldar <2739302h@student.gla.ac.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+altair = "^4.2.2"
+pandas = "^1.5.3"
+numpy = "^1.24.2"
+mercury = "^2.0.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
